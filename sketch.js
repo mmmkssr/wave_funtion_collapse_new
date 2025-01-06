@@ -22,7 +22,7 @@ const reglas = [
     //tile 1
     UP: 0,
     RIGHT: 0,
-    DOWN: 1,
+    DOWN: 0,
     LEFT: 0,
   },
 
@@ -30,7 +30,7 @@ const reglas = [
     //tile 2
     UP: 0,
     RIGHT: 0,
-    DOWN: 1,
+    DOWN: 0,
     LEFT: 0,
   },
 
@@ -38,71 +38,71 @@ const reglas = [
     //tile 3
     UP: 0,
     RIGHT: 0,
-    DOWN: 1,
+    DOWN: 0,
     LEFT: 0,
   },
 
   {
     //tile 4
-    UP: 1,
-    RIGHT: 2,
-    DOWN: 1,
-    LEFT: 2,
+    UP: 0,
+    RIGHT: 0,
+    DOWN: 0,
+    LEFT: 0,
   },
 
   {
     //tile 5
     UP: 0,
-    RIGHT: 2,
-    DOWN: 0,
+    RIGHT: 0,
+    DOWN: 1,
     LEFT: 0,
   },
 
   {
     //tile 6
-    UP: 3,
+    UP: 0,
     RIGHT: 0,
     DOWN: 0,
-    LEFT: 0,
+    LEFT: 1,
   },
 
   {
     //tile 7
-    UP: 4,
-    RIGHT: 0,
-    DOWN: 4,
+    UP: 0,
+    RIGHT: 1,
+    DOWN: 0,
     LEFT: 0,
   },
 
   {
     //tile 8
-    UP: 4,
+    UP: 0,
     RIGHT: 0,
     DOWN: 0,
-    LEFT: 0,
+    LEFT: 1,
   },
 
   {
     //tile 9
     UP: 0,
     RIGHT: 0,
-    DOWN: 4,
+    DOWN: 3,
     LEFT: 0,
   },
 
   {
     //tile 10
-    UP: 4,
+    UP: 0,
     RIGHT: 0,
-    DOWN: 0,
-    LEFT: 2,
+    DOWN: 3,
+    LEFT: 0,
   },
 
   {
     //tile 11
     UP: 0,
-    RIGHT: 2,
-    DOWN: 4,
+    RIGHT: 0,
+    DOWN: 2,
     LEFT: 0,
   },
 
@@ -116,17 +116,17 @@ const reglas = [
 
   {
     //tile 13
-    UP: 0,
-    RIGHT: 2,
+    UP: 3,
+    RIGHT: 0,
     DOWN: 0,
-    LEFT: 2,
+    LEFT: 0,
   },
 
   {
     //tile 14
-    UP: 3,
+    UP: 2,
     RIGHT: 0,
-    DOWN: 3,
+    DOWN: 0,
     LEFT: 0,
   },
 
@@ -134,118 +134,118 @@ const reglas = [
     //tile 15
     UP: 0,
     RIGHT: 0,
-    DOWN: 0,
-    LEFT: 2,
+    DOWN: 4,
+    LEFT: 0,
   },
 
   {
     //tile 16
-    UP: 5,
+    UP: 3,
     RIGHT: 0,
-    DOWN: 0,
-    LEFT: 6,
+    DOWN: 2,
+    LEFT: 0,
   },
 
   {
     //tile 17
-    UP: 0,
-    RIGHT: 6,
-    DOWN: 0,
-    LEFT: 6,
+    UP: 3,
+    RIGHT: 0,
+    DOWN: 2,
+    LEFT: 0,
   },
 
   {
     //tile 18
-    UP: 5,
-    RIGHT: 2,
+    UP: 4,
+    RIGHT: 0,
     DOWN: 0,
     LEFT: 0,
   },
 
   {
     //tile 19
-    UP: 7,
-    RIGHT: 6,
+    UP: 0,
+    RIGHT: 5,
     DOWN: 0,
     LEFT: 0,
   },
 
   {
     //tile 20
-    UP: 7,
+    UP: 0,
     RIGHT: 0,
-    DOWN: 7,
-    LEFT: 0,
+    DOWN: 0,
+    LEFT: 5,
   },
 
   {
     //tile 21
-    UP: 7,
-    RIGHT: 0,
-    DOWN: 3,
+    UP: 0,
+    RIGHT: 5,
+    DOWN: 0,
     LEFT: 0,
   },
 
   {
     //tile 22
-    UP: 5,
+    UP: 0,
     RIGHT: 0,
-    DOWN: 5,
-    LEFT: 0,
+    DOWN: 0,
+    LEFT: 5,
   },
 
   {
     //tile 23
-    UP: 3,
+    UP: 2,
     RIGHT: 0,
-    DOWN: 5,
+    DOWN: 0,
     LEFT: 0,
   },
 
   {
     //tile 24
     UP: 0,
-    RIGHT: 0,
-    DOWN: 3,
-    LEFT: 0,
+    RIGHT: 5,
+    DOWN: 0,
+    LEFT: 1,
   },
 
   {
     //tile 25
-    UP: 7,
-    RIGHT: 0,
+    UP: 0,
+    RIGHT: 5,
     DOWN: 0,
-    LEFT: 2,
+    LEFT: 1,
   },
 
   {
     //tile 26
-    UP: 5,
-    RIGHT: 0,
+    UP: 3,
+    RIGHT: 6,
     DOWN: 0,
-    LEFT: 2,
+    LEFT: 0,
   },
 
   {
     //tile 27
     UP: 0,
-    RIGHT: 0,
-    DOWN: 4,
-    LEFT: 2,
+    RIGHT: 6,
+    DOWN: 0,
+    LEFT: 0,
   },
 
   {
     //tile 28
     UP: 0,
-    RIGHT: 6,
-    DOWN: 3,
+    RIGHT: 0,
+    DOWN: 0,
     LEFT: 6,
   },
 
   {
     //tile 29
-    UP: 3,
-    RIGHT: 6,
+    UP: 0,
+    RIGHT: 5,
     DOWN: 0,
     LEFT: 6,
   },
@@ -253,23 +253,23 @@ const reglas = [
   {
     //tile 30
     UP: 0,
-    RIGHT: 0,
-    DOWN: 7,
+    RIGHT: 7,
+    DOWN: 0,
     LEFT: 0,
   },
 
   {
     //tile 31
     UP: 0,
-    RIGHT: 0,
-    DOWN: 5,
-    LEFT: 0,
+    RIGHT: 6,
+    DOWN: 0,
+    LEFT: 7,
   },
 
   {
     //tile 32
     UP: 0,
-    RIGHT: 0,
+    RIGHT: 7,
     DOWN: 0,
     LEFT: 6,
   },
@@ -277,65 +277,17 @@ const reglas = [
   {
     //tile 33
     UP: 0,
-    RIGHT: 6,
+    RIGHT: 0,
     DOWN: 0,
-    LEFT: 0,
+    LEFT: 6,
   },
 
   {
     //tile 34
-    UP: 1,
-    RIGHT: 0,
-    DOWN: 1,
-    LEFT: 0,
-  },
-
-  {
-    //tile 35
-    UP: 1,
-    RIGHT: 0,
-    DOWN: 0,
-    LEFT: 0,
-  },
-
-  {
-    //tile 36
-    UP: 4,
-    RIGHT: 2,
-    DOWN: 0,
-    LEFT: 2,
-  },
-
-  {
-    //tile 37
-    UP: 4,
-    RIGHT: 6,
-    DOWN: 0,
-    LEFT: 0,
-  },
-
-  {
-    //tile 38
-    UP: 4,
-    RIGHT: 0,
-    DOWN: 0,
-    LEFT: 6,
-  },
-
-  {
-    //tile 39
     UP: 0,
     RIGHT: 0,
-    DOWN: 7,
+    DOWN: 2,
     LEFT: 6,
-  },
-
-  {
-    //tile 40
-    UP: 0,
-    RIGHT: 6,
-    DOWN: 5,
-    LEFT: 0,
   },
 ];
 
